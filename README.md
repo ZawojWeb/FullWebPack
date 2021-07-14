@@ -1,6 +1,4 @@
-# FullWebPack
-
-## Full webpack setup.
+# Full WebPack setup
 
 ### Include:
 * Babel
