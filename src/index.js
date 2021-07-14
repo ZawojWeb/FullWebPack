@@ -1,15 +1,6 @@
-import "./style/index.scss"
+import {render} from "react-dom"
+import App from "./components/App"
+
+render(<App/>, document.getElementById("root"));
 
 
-const elevenShieldRecipe = {
-    leatherStrips: 2,
-    ironIngot: 1,
-    refinedMoonstone: 4
-}
-const elevenGoutle = {
-    ...elevenShieldRecipe,
-    leather: 1,
-    refinedMoonstone: 3
-}
-console.log(elevenShieldRecipe)
-console.log(elevenGoutle)
