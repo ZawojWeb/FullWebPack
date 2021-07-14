@@ -1,5 +1,6 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
+// 'production': 'none' | 'development' | 'production'
 let mode = "development";
 if (process.env.NODE_ENV === "production") {
     mode = "production";
@@ -27,6 +28,7 @@ module.exports = {
         new MiniCssExtractPlugin()
     ],
     devServer: {
-        contentBase: "./dist"
+        contentBase: "./dist",
+        hot: true,
     }
 }
