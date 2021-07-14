@@ -1,4 +1,3 @@
-import {useState} from 'react'
 
 const elevenShieldRecipe = {
     leatherStrips: 2,
@@ -13,13 +12,3 @@ const elevenGoutle = {
 console.log(elevenShieldRecipe)
 console.log(elevenGoutle)
 
-
-const Recipes = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default Recipes
